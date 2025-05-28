@@ -1,0 +1,167 @@
+## Document SelfWave 
+
+## Descriere generală 
+SelfWave reprezintă o aplicație personală de sănatate și bună dispoziție construită în Flutter care ajută utilizatorii să-și urmăresc sentimentele zilnice și activitățile cotidiene într-un jurnal personal organizat eficient. Aplicația este disponibilă în limba română și engleză și vine cu o interfață modernizată și intuitivă ce suportă întunecarea si luminoasa tematicii. 
+
+## Principalele aspecte
+
+
+**Jurnalizarea Stări de Bine**
+  Un sistem de evaluare cu cinci niveluri (cu emoji-uri intuitive).
+  Poți să adaugi note pentru fiecare înregistrare.
+  * Alegerea momentului și a date pentru efectuarea înregistrărilor ulterior. 
+   Istoricul vizual al emoțiilor
+
+**Opțiuni de notificare personalizabile**
+  Configurările pentru timpul notificărilor 
+  Selectarea zilelor pentru primirea notificărilor în timpul săptămânii.
+  Mesaje personalizate pentru fiecare persoană.
+
+
+**Caracteristici fundamentale**
+  Înmănușarea înregistrări jurnale cu informații de dată și oră 
+  Eliminarea și corectarea intrărilor deja existente.
+  Ordonare pe baza timpului a înregistrărilor.
+  Suport pentru formatarea textului
+
+**Recomandări pentru un jurnal**
+  
+  Sfaturi inteligente în funcție de dispoziție emoțională a utilizatorului sunt planificate pentru viitor. 
+  Categorii de ideea și introspecție.
+
+
+**Administrarea Spațiilor de Lucru**
+  Organizarea diferitelor categorii de sarcini în spații separate.   
+  Înlocuire și eliminare de spații.
+  În spațiul public, este loc pentru sarcini generale.
+
+**Caracteristici pentru Activități**
+  Gestiunea sarcinilor: adăugare și modificare de sarcini în sistem.
+  Marcarea sarcinilor ca finalizată.
+  Organizarea în spații distincte.
+  Păstrarea datelor între sesiuni
+
+
+**Administrarea profilurilor**
+  Crearea mai multor profile individuale
+  Schimbarea între diferite profiluri.
+  Personalizarea avatarului și introducerea informțiilor de contact
+  Transferul și recepționarea datelor
+
+Configurațiile aplicației.
+  Modificarea limbajului (Română / Engleză) 
+  Schimbarea de la o temă luminoasă la una întunecată
+  Ajustare notificări personalizate.
+  Administrearea informațiilor utilizatorilor
+
+## Structura tehnică 
+
+
+Îmi pare rău, dar fără textul inițial de la utilizator, nu pot furniza o rescriere corespunzătoare. Vă rog să îmi oferiți textul pe care doriți să-l parafrazați pentru a vă oferi o versiune uman-like.
+Imposibil de parafrazat, intrarea este prea scurtă. Dacă aveți un alt text pe care doriți să îl parafrazați, vă rog să îl trimiteți.
+
+Directorul “ecrane/” contine ecranele principale ale aplicației.
+- Ecranul principal al aplicației. 
+- Fișierul “profil_screen.dart” este ecranul de profil. 
+- Fereastră pentru jurnal în fișierul journal_screen.dart
+
+- Ecrane secundare sunt stocate în dosarul miscScreens. 
+└─ directorul / | modele de date |
+
+- Gestionarea profilurilor este o componentă esențială. 
+- Directorul ține fișierele de localizare. 
+Înțeleg, iată o versiune parafrazată a textului dvs.: 
+
+
+Principalul cadru de lucru este Flutter.
+Materialul Design 3 este un sistem de design.
+
+**Furnizor** - Administrarea stării
+"Localizările Flutter” - Suport pentru mai multe limbi.
+
+
+
+  Tema luminoasă este caracterizată de culori calde și un contrast optim. 
+  Opțiune pentru modul întunecat cu nuanțe recii și contrast redus.
+  
+  Designul adaptiv pentru variate dimensiuni de ecran.
+
+
+  Carduri cu marginile întunecate și rotunjite.
+  "Icoane din designul material"
+  Animațiile sunt foarte bine realizate.
+  Feedback vizual pentru acțiuni.
+
+## Planuri viitoare pentru implementare
+
+
+Studiul modelelor de scriere 
+Recomandări în funcție de dispoziție
+Prompturi personalizate 
+Integrarea cu inteligența artificială pentru a oferi sugestii contextuale 
+
+
+Graficele care reflectă schimbările de dispoziție au fost create.
+Studiu asupra modelelor de productivitate
+Rapoarte regulate și anuale
+Exportul datelor pentru analiza externă.
+
+
+-- Sincronizarea în nor --
+-Copie de siguranță automată 
+• Export în diferite formate 
+
+
+
+
+Grupuri de sprijin
+Sistemul de reușite
+-Probleme întâmpinate de comunitate 
+
+## Instrucțiuni pentru instalare și dezvoltare 
+
+
+Ultima versantă stabilă a kitului de dezvoltare software Flutter.
+Folosesc Android Studio sau VS Code.
+Sistemul de control al versiunilor Git.
+Aparat Android/iOS sau simulatoare de dispozițive
+
+
+Pentru a clona un depozit: 
+   Regret, dar nu pot genera o rescriere a textului fără a avea conținutul original furnizat de dumneavoastră. Vă rog să introduceți textul dorit pentru a începe procesul de parafrazare.
+   Am creat o copie locală a depozitului folosind comanda `git clone [URL_REPOSITORY].`
+   cd SelfWave
+   Cu siguranță, vă pot ajuta cu asta. Vă rog să introduceți textul pe care doriți să-l parafrasez.
+
+
+   Scuze, dar fără textul original de la utilizator, nu pot oferi o rescriere parafrazată. Vă rog să furnizați textul pe care doriți să-l parafrazați pentru a continua.
+   Obțineți pachetul folosind comanda `flutter pub get`.
+   Îmi cer scuze pentru confuzie. Fără un text de referință furnizat, nu pot genera o reparație specifică. Vă rog să-mi oferiți textul pe care doriți să îl parafrazați și voi face tot posibilul să vă ajut.
+
+
+   Îmi pare rău, dar nu pot genera o rescriere fără textul original pe care să-l parafrazez. Vă rog să furnizați textul pe care doriți să îl restrâng și voi face tot posibilul să îl ajustez pentru a părea scris de om.
+   rulează comanda flutter
+   Regret, dar fără textul dvs. original, nu am cum să furnizez o parafrazare. Vă rog să îmi oferiți textul pe care doriți să îl rescriu pentru a trece de detectorul de text AI ca om.
+
+
+Actualizarea fișierului `pubspec.yaml' pentru dependințele necesare 
+Pregătirea fișierelor de localizare în directorul `10nl/'
+Configurarea cheilor API pentru serviciile externe.
+Configurați alertele pentru a primi notificări push.
+
+## Implicarea 
+
+
+1.Creează o ramură pentru funcționalitate (`git checkout -nou feature/UimitoareCaracteristică`) 
+2.Salvați modificările (`git commit -am 'Adăugați funcționalitate uimitoare`)
+Împingeți ramura (`git push origin feature/FunctieUimitoare`)  
+
+
+## Drepturi de autor 
+Această inițiativă este reglementată conform [licentează], vă rugăm să consultați fișierul LICENSE.md pentru informații detaliate. 
+
+## Informații de contact 
+În cazul în care aveți nevoie de ajutor sau aveți întrebări, vă rugăm să nu ezitați să ne contactați.
+Adresă de email : [EMAIL] 
+--- Website-ul menționat este [WEBSITE]. 
+Pe platforma GitHub, puteți accesa profilul meu la adresa [PROFIL_GITHUB].

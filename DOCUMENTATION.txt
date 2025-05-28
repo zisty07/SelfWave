@@ -1,0 +1,148 @@
+DOCUMENTATIE SELFWAVE
+
+PREZENTARE GENERALA
+SelfWave este o aplicatie de wellness personal dezvoltata in Flutter, care ajuta utilizatorii sa isi monitorizeze starea de spirit, sa tina un jurnal personal si sa isi organizeze sarcinile zilnice. Aplicatia este disponibila in limba romana si engleza, oferind o interfata intuitiva si moderna, cu suport pentru teme luminoase si intunecate.
+
+CARACTERISTICI PRINCIPALE
+
+1. MONITORIZAREA STARII DE SPIRIT
+- Inregistrarea Starii de Spirit
+  - Sistem de evaluare cu 5 niveluri (emoji-uri intuitive)
+  - Posibilitatea de adaugare de note pentru fiecare inregistrare
+  - Selectarea datei si orei pentru inregistrari retroactive
+  - Vizualizare istoric a starilor de spirit
+
+- Notificari Personalizabile
+  - Setari pentru perioada de timp a notificarilor
+  - Selectarea zilelor de saptamana pentru notificari
+  - Mesaje personalizate pentru fiecare utilizator
+
+2. JURNAL PERSONAL
+- Functionalitati de Baza
+  - Crearea de intrari in jurnal cu data si ora
+  - Editarea si stergerea intrarilor existente
+  - Organizare cronologica a intrarilor
+  - Suport pentru text formatat
+
+- Sugestii pentru Jurnal
+  - Prompteri pentru scriere (implementare viitoare)
+  - Sugestii inteligente bazate pe starea de spirit (implementare viitoare)
+  - Categorii de ganduri si reflectii
+
+3. LISTA DE SARCI (TO-DO)
+- Gestionarea Spatiilor de Lucru
+  - Crearea de spatii multiple pentru diferite categorii de sarcini
+  - Redenumirea si stergerea spatiilor
+  - Spatiu implicit pentru sarcini generale
+
+- Functionalitati pentru Sarcini
+  - Adaugare, editare si stergere de sarcini
+  - Marcarea sarcinilor ca finalizate
+  - Organizare in spatii separate
+  - Persistenta datelor intre sesiuni
+
+4. PROFIL SI PERSONALIZARE
+- Gestionarea Profilurilor
+  - Crearea de profiluri multiple
+  - Schimbarea intre profiluri
+  - Personalizare avatar si informatii de contact
+  - Export si import de date
+
+- Setari Aplicatie
+  - Schimbarea limbii (Romana/Engleza)
+  - Comutare intre tema luminoasa si intunecata
+  - Personalizare notificari
+  - Gestionarea datelor utilizator
+
+ARHITECTURA TEHNICA
+
+STRUCTURA APLICATIEI
+lib/
+- main.dart                 (Punct de intrare aplicatie)
+- screens/                  (Ecrane principale)
+  - main_home_screen.dart   (Ecran principal)
+  - profile_screen.dart     (Ecran profil)
+  - journal_screen.dart     (Ecran jurnal)
+  - todo_screen.dart        (Ecran sarcini)
+  - miscScreens/            (Ecrane secundare)
+- models/                   (Modele de date)
+- services/                 (Servicii, notificari)
+- profile/                  (Gestionare profiluri)
+- l10n/                     (Fisiere de localizare)
+
+TEHNOLOGII UTILIZATE
+- Flutter (Framework-ul principal)
+- Material Design 3 (Sistem de design)
+- SharedPreferences (Stocare locala)
+- Provider (Gestionare stare)
+- Flutter Localizations (Suport multilingv)
+
+DESIGN SI UI
+- Teme
+  - Tema luminoasa: Culori calde si contrast optim
+  - Tema intunecata: Culori reci si contrast redus
+  - Tranzitii animate intre stari
+  - Design adaptiv pentru diferite dimensiuni de ecran
+
+- Elemente de Design
+  - Carduri cu umbra si colturi rotunjite
+  - Iconite Material Design
+  - Animatii fluide
+  - Feedback vizual pentru actiuni
+
+IMPLEMENTARI VIITOARE
+
+1. SUGESTII INTELIGENTE PENTRU JURNAL
+- Analiza a pattern-urilor de scriere
+- Sugestii bazate pe starea de spirit
+- Prompteri personalizate
+- Integrare cu AI pentru sugestii contextuale
+
+2. ANALIZA SI STATISTICI
+- Grafice pentru evolutia starii de spirit
+- Analiza a pattern-urilor de productivitate
+- Rapoarte lunare si anuale
+- Export de date pentru analiza externa
+
+3. SINCRONIZARE SI BACKUP
+- Sincronizare cloud
+- Backup automat
+- Export in formate multiple
+- Recuperare date
+
+4. FUNCTIONALITATI SOCIALE
+- Partajare anonima a experientelor
+- Grupuri de suport
+- Sistem de achievements
+- Challenge-uri comunitare
+
+GHID DE INSTALARE SI DEZVOLTARE
+
+CERINTE SISTEM
+- Flutter SDK (ultima versiune stabila)
+- Android Studio / VS Code
+- Git
+- Dispozitiv Android/iOS sau emulator
+
+PASI DE INSTALARE
+1. Clonare repository:
+   git clone GitHub/zisty07/SelfWave
+   cd SelfWave
+
+2. Instalare dependente:
+   flutter pub get
+
+3. Rulare aplicatie:
+   flutter run
+
+SUPORT SI CONTACT
+Pentru asistenta tehnica sau sugestii, va rugam sa contactati echipa de dezvoltare:
+- Email: [adresa_email]
+- GitHub: [link_github]
+- Discord: [link_discord]
+
+LICENTA
+Acest proiect este licentiat sub MIT License. Pentru detalii, consultati fisierul LICENSE.
+
+Ultima actualizare: [Data curenta]
+Versiune: 1.0.0 
